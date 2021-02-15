@@ -88,7 +88,7 @@ namespace leave_management.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Email")
+                    b.Property<string>("EmailAddress")
                         .HasColumnType("nvarchar(256)")
                         .HasMaxLength(256);
 
