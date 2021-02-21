@@ -227,7 +227,7 @@ namespace leave_management.Data.Migrations
                     b.ToTable("AspNetUserTokens");
                 });
 
-            modelBuilder.Entity("leave_management.Data.LeaveAllocation", b =>
+            modelBuilder.Entity("leave_management.Data.LeaveAllocations", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -255,7 +255,10 @@ namespace leave_management.Data.Migrations
                     b.ToTable("LeaveAllocations");
                 });
 
-            modelBuilder.Entity("leave_management.Data.LeaveHistory", b =>
+            modelBuilder.Entity("leave_management.Data." +
+                                "LeaveHistory" +
+                                "" +
+                                "", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -389,7 +392,7 @@ namespace leave_management.Data.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("leave_management.Data.LeaveAllocation", b =>
+            modelBuilder.Entity("leave_management.Data.LeaveAllocations", b =>
                 {
                     b.HasOne("leave_management.Data.Employee", "Employee")
                         .WithMany()

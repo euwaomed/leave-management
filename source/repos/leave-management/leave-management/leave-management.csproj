@@ -9,6 +9,8 @@
   <ItemGroup>
     <Compile Remove="Data\Migrations\20210215181632_AddedDefaultDaysAndPeriod.cs" />
     <Compile Remove="Data\Migrations\20210215181632_AddedDefaultDaysAndPeriod.Designer.cs" />
+    <Compile Remove="Data\Migrations\20210217164740_ChangedLeaveHistoriesToLeaveRequests.cs" />
+    <Compile Remove="Data\Migrations\20210217164740_ChangedLeaveHistoriesToLeaveRequests.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>

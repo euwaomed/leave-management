@@ -232,3 +232,7 @@ C:\Users\eomed\source\repos\leave-management\leave-management\obj\Debug\netcorea
 C:\Users\eomed\source\repos\leave-management\leave-management\obj\Debug\netcoreapp3.1\Razor\Views\LeaveAllocation\ListEmployees.cshtml.g.cs
 C:\Users\eomed\source\repos\leave-management\leave-management\obj\Debug\netcoreapp3.1\Razor\Views\LeaveAllocation\Details.cshtml.g.cs
 C:\Users\eomed\source\repos\leave-management\leave-management\obj\Debug\netcoreapp3.1\Razor\Views\LeaveAllocation\Edit.cshtml.g.cs
+C:\Users\eomed\source\repos\leave-management\leave-management\obj\Debug\netcoreapp3.1\Razor\Views\LeaveRequest\Index.cshtml.g.cs
+C:\Users\eomed\source\repos\leave-management\leave-management\obj\Debug\netcoreapp3.1\Razor\Views\LeaveRequest\Create.cshtml.g.cs
+C:\Users\eomed\source\repos\leave-management\leave-management\obj\Debug\netcoreapp3.1\Razor\Views\LeaveRequest\Details.cshtml.g.cs
+C:\Users\eomed\source\repos\leave-management\leave-management\obj\Debug\netcoreapp3.1\Razor\Views\LeaveRequest\MyLeave.cshtml.g.cs
