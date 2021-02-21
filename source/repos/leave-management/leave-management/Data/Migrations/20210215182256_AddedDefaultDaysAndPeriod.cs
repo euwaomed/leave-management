@@ -7,7 +7,6 @@ namespace leave_management.Data.Migrations
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-
             migrationBuilder.AlterColumn<string>(
                 name: "Name",
                 table: "LeaveTypes",

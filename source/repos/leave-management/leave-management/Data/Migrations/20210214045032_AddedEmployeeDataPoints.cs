@@ -24,17 +24,17 @@ namespace leave_management.Data.Migrations
                 nullable: true);
 
             migrationBuilder.AddColumn<string>(
-                name: "FirstName",
+                name: "Firstname",
                 table: "AspNetUsers",
                 nullable: true);
 
             migrationBuilder.AddColumn<string>(
-                name: "LastName",
+                name: "Lastname",
                 table: "AspNetUsers",
                 nullable: true);
 
             migrationBuilder.AddColumn<string>(
-                name: "TaxID",
+                name: "TaxId",
                 table: "AspNetUsers",
                 nullable: true);
         }
@@ -54,15 +54,15 @@ namespace leave_management.Data.Migrations
                 table: "AspNetUsers");
 
             migrationBuilder.DropColumn(
-                name: "FirstName",
+                name: "Firstname",
                 table: "AspNetUsers");
 
             migrationBuilder.DropColumn(
-                name: "LastName",
+                name: "Lastname",
                 table: "AspNetUsers");
 
             migrationBuilder.DropColumn(
-                name: "TaxID",
+                name: "TaxId",
                 table: "AspNetUsers");
         }
     }
